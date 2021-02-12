@@ -182,6 +182,7 @@ select option {
 }
 
 textarea {
+  background-color: #ffffff;
   color: var(--primary-color);
   box-shadow: inset 1px 1px 5px 3px var(--primary-color);
   padding: 1rem;
