@@ -11,6 +11,7 @@
   --secondary-font-color: #4a565f;
   --light-font-color: #70767c;
   --input-background-color: #eff2f5;
+  --newsletter-background-color: #f2f3f3;
   --focus-color: #2f70ad;
   --button-color: #3ad3d3;
   --button-hover-color: #21b3b3;
@@ -159,7 +160,7 @@ select option {
 }
 
 .newsletter-container {
-  background-color: rgb(242, 243, 243);
+  background-color: var(--newsletter-background-color);
   border-radius: 10px;
   padding: 1rem;
 }
