@@ -11,10 +11,10 @@
   --secondary-font-color: #4a565f;
   --light-font-color: #70767c;
   --input-background-color: #eff2f5;
-  --newsletter-background-color: #f2f3f3;
+  --newsletter-background-color: #4d2a3c;
   --focus-color: #2f70ad;
-  --button-color: #3ad3d3;
-  --button-hover-color: #21b3b3;
+  --button-color: #596e81;
+  --button-hover-color: #2a3c4d;
   --max-width-768px: 900px;
 }
 
@@ -165,6 +165,12 @@ select option {
   padding: 1rem;
 }
 
+.newsletter-container legend,
+.newsletter-container label,
+.newsletter-item label {
+  color: #ffffff;
+}
+
 .newsletter-item label {
   margin: 0.5rem 0.5rem;
   padding: 0;
@@ -227,7 +233,7 @@ button[type="submit"] {
 
 @media (min-width: 768px) {
   .container {
-    width: 60%;
+    width: 80%;
     max-width: var(--max-width-768px);
   }
 
